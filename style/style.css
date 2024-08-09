@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFF;
+}
+
+.logo-and-contact {
+    background-color: #77A6F7;
+}
+
+.logo-and-contact h1 {
+    font-family: "Hero-Bold";
+    font-size: 3vw;
+    color: #FFF;
+}
+
+.navbar-menu {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: #77A6F7;
+	align-items: center;
+	text-align: center;
+	list-style-type: none;
+}
+
+.navbar-menu li {
+	display: inline-block;
+	width: 100%;
+}
+
+#PasswordsHeaderButton {
+	background: linear-gradient(#00887A 0 0) 100% 100% /var(--t, 0) 0.2vw no-repeat;
+	transition: 0.3s;
+	display: inline-block;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+	font-family: "Hero-Bold";
+	font-size: 1.6vw;
+	padding: 1vw;
+  	text-decoration: none;
+}
+
+#PasswordsHeaderButton:hover {
+	--t: 100%;
+	color: #00887A;
+}
+
+#PasswordHeaderButton:active {
+	background-color: #00887A;
+}
+
+#VaultHeaderButton {
+	background: linear-gradient(#00887A 0 0) 0 100% /var(--t, 0) 0.2vw no-repeat;
+	transition: 0.3s;
+	display: inline-block;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+	font-family: "Hero-Bold";
+	font-size: 1.6vw;
+	padding: 1vw;
+  	text-decoration: none;
+}
+
+#VaultHeaderButton:hover {
+	--t: 100%;
+	color: #00887A;
+}
+
+
+#CryptoHeaderButton {
+	background: linear-gradient(#00887A 0 0) bottom /var(--t, 0) 0.2vw no-repeat;
+	transition: 0.3s;
+	display: inline-block;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+	font-family: "Hero-Bold";
+	font-size: 1.6vw;
+	padding: 1vw;
+  	text-decoration: none;
+}
+
+#CryptoHeaderButton:hover {
+	--t: 100%;
+	color: #00887A;
+}
+
+
+#SCAMGuardHeaderButton {
+	background: linear-gradient(#00887A 0 0) 100% 100% /var(--t, 0) 0.2vw no-repeat;
+	transition: 0.3s;
+	display: inline-block;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+	font-family: "Hero-Bold";
+	font-size: 1.6vw;
+	padding: 1vw;
+  	text-decoration: none;
+}
+
+#SCAMGuardHeaderButton:hover {
+	--t: 100%;
+	color: #00887A;
+}
+
+#SocialHeaderButton {
+	background: linear-gradient(#00887A 0 0) 0 100% /var(--t, 0) 0.2vw no-repeat;
+	transition: 0.3s;
+	display: inline-block;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+	font-family: "Hero-Bold";
+	font-size: 1.6vw;
+	padding: 1vw;
+  	text-decoration: none;
+}
+
+#SocialHeaderButton:hover {
+	--t: 100%;
+	color: #00887A;
+}
+
+@font-face {
+	font-family: "Hero-Bold";
+	src: url("../fonts/hero/TTF/Hero-Bold.ttf") format("truetype");
+	font-style: normal; 
+	font-weight: normal; 
+} 
