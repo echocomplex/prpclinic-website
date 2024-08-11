@@ -10,13 +10,82 @@ body {
 }
 
 .logo-and-contact {
+	display: flex;
     background-color: #77A6F7;
 }
 
-.logo-and-contact h1 {
-    font-family: "Hero-Bold";
-    font-size: 3vw;
-    color: #FFF;
+.logo img {
+    width: 4vw;
+	height: 4.75vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	margin-left: 5vw;
+}
+
+.note h1 {
+	font-size: 3vw;
+	color: #FFF;
+	font-family: "Hero-Bold";
+	margin-top: 1.7vw;
+	margin-left: 1vw;
+}
+
+.number {
+	margin-left: 13vw;
+	margin-top: 1.7vw;
+}
+
+.number h1 {
+	font-size: 3vw;
+	color: #FFF;
+	font-family: "Hero-Bold";
+}
+
+.address {
+	margin-left: 15vw;
+	margin-top: 1.7vw;
+}
+
+.address p {
+	font-size: 1.5vw;
+	color: #FFF;
+	font-family: "Hero-Bold";
+}
+
+.metro {
+	display: flex;
+}
+
+.metro p {
+	margin-left: 0.5vw;
+	margin-top: 0.2vw;
+}
+
+.metro img {
+	margin-top: 0.55vw;
+	width: 1.6vw;
+	height: 1.3vw;
+}
+
+.welcome {
+	position: relative;
+	background-color: #000;
+}
+
+.welcome img {
+	width: 100%;
+	opacity: 0.4;
+}
+
+.welcome span {
+	text-align: center;
+	position: absolute;
+	top: 25%;
+	left: 20%;
+	right: 20%;
+	font-size: 5.75vw;
+	color: #77A6F7;
+	font-family: "Hero-Bold";
 }
 
 .navbar-menu {
@@ -35,7 +104,7 @@ body {
 }
 
 #PasswordsHeaderButton {
-	background: linear-gradient(#00887A 0 0) 100% 100% /var(--t, 0) 0.2vw no-repeat;
+	background: linear-gradient(#00887A 0 0) 100% 100% /var(--t, 0) 0.3vw no-repeat;
 	transition: 0.3s;
 	display: inline-block;
 	width: 100%;
@@ -57,7 +126,7 @@ body {
 }
 
 #VaultHeaderButton {
-	background: linear-gradient(#00887A 0 0) 0 100% /var(--t, 0) 0.2vw no-repeat;
+	background: linear-gradient(#00887A 0 0) 0 100% /var(--t, 0) 0.3vw no-repeat;
 	transition: 0.3s;
 	display: inline-block;
 	width: 100%;
@@ -76,7 +145,7 @@ body {
 
 
 #CryptoHeaderButton {
-	background: linear-gradient(#00887A 0 0) bottom /var(--t, 0) 0.2vw no-repeat;
+	background: linear-gradient(#00887A 0 0) bottom /var(--t, 0) 0.3vw no-repeat;
 	transition: 0.3s;
 	display: inline-block;
 	width: 100%;
@@ -95,7 +164,7 @@ body {
 
 
 #SCAMGuardHeaderButton {
-	background: linear-gradient(#00887A 0 0) 100% 100% /var(--t, 0) 0.2vw no-repeat;
+	background: linear-gradient(#00887A 0 0) 100% 100% /var(--t, 0) 0.3vw no-repeat;
 	transition: 0.3s;
 	display: inline-block;
 	width: 100%;
@@ -113,7 +182,7 @@ body {
 }
 
 #SocialHeaderButton {
-	background: linear-gradient(#00887A 0 0) 0 100% /var(--t, 0) 0.2vw no-repeat;
+	background: linear-gradient(#00887A 0 0) 0 100% /var(--t, 0) 0.3vw no-repeat;
 	transition: 0.3s;
 	display: inline-block;
 	width: 100%;
