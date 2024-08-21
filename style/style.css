@@ -213,7 +213,7 @@ body {
 #what-is-prp h1 {
 	display: block;
 	text-align: center;
-	padding-top: 2vw;
+	padding-top: 7vw;
 	padding-bottom: 2vw;
 	width: 100%;
 	font-size: 4.5vw;
@@ -265,11 +265,11 @@ body {
 #prp-therapy h1 {
 	display: block;
 	text-align: center;
-	padding-top: 2vw;
+	padding-top: 7vw;
 	padding-bottom: 2vw;
 	width: 100%;
 	font-size: 4.5vw;
-	color: var(--text-color);
+	color: var(--bg-color);
 	font-family: "Hero-Bold";
 }
 
@@ -280,6 +280,7 @@ body {
 }
 
 #prp-therapyinfo {
+	opacity: 0;
 	display: flex;
 }
 
