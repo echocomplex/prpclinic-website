@@ -355,7 +355,6 @@ body {
 	height: 35vw;
 }
 
-
 #reasons {
 	opacity: 0;
     justify-content: center;
@@ -397,7 +396,12 @@ body {
 	background-color: #77A6F7;
 	border-radius: 3vw;
 	padding: 2vw;
-	box-shadow: ;
+	box-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.3);
+	transition: transform 0.3s ease;
+}
+
+#reasonsinfo div:hover {
+	transform: translateY(-0.5vw);
 }
 
 #reasonsinfo div p {
@@ -412,6 +416,115 @@ body {
 #reasonsinfo div b {
 	font-size: 3vw;
     font-family: "Hero-Bold";
+}
+
+#list-of-serivces {
+	opacity: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 0 auto;
+	padding-bottom: 5vw;
+}
+
+#list-of-serivces h1 {
+	display: block;
+	text-align: center;
+	margin-bottom: 7vw;
+	width: 100%;
+	font-size: 4.5vw;
+	color: white;
+	font-family: "Hero-Bold";
+}
+
+#list-of-serivces b {
+	font-size: 4vw;
+	font-family: "Hero-Bold";
+}
+
+#list-of-serivces-info {
+	margin-top: 1vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-bottom: 2vw;
+	display: grid;
+	grid-template-columns: auto auto auto;
+  	grid-template-rows: auto auto;
+  	grid-auto-flow: row;
+  	gap: 2vw;
+}
+
+#list-of-serivces-info div {
+	display: flex;
+	cursor: pointer;
+	background-color: white;
+	border-radius: 3vw;
+	padding: 2vw;
+	box-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.3);
+	transition: transform 0.3s ease;
+}
+
+#list-of-serivces-info div:hover {
+	transform: translateY(-0.5vw);
+}
+
+#list-of-serivces-info div h3 {
+	display: inline-block;
+	margin: auto;
+    text-align: center;
+	font-size: 2vw;
+    font-family: "Hero-Bold";
+    color: #77A6F7;
+}
+
+
+#contacts-and-appointment {
+	opacity: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto 0 auto;
+	padding-bottom: 5vw;
+}
+
+#contacts-and-appointment-info {
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+#contacts-and-appointment-info p {
+	padding-left: 5vw;
+	max-width: 60vw;
+    text-align: left;
+	margin: auto;
+	font-size: 2.6vw;
+    font-family: "Hero-Bold";
+    color: #77A6F7;
+}
+
+#contacts-and-appointment-info b {
+	font-size: 3vw;
+    font-family: "Hero-Bold";
+}
+
+#footer-contacts {
+	width: 100%;
+	margin: 0 auto 0 auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+  	grid-template-rows: auto;
+}
+
+#footer-contacts a {
+	display: block;
+	background-color: #77A6F7;
+	border-radius: 3vw;
+	padding: 2vw;
+	box-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.3);
+	transition: transform 0.3s ease;
+	font-family: "Hero-Bold";
+	font-size: 2vw;
+	color: white;
 }
 
 @font-face {
