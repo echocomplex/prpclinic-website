@@ -6,7 +6,7 @@
 }
 
 :root {
-	--accent-color: #00887A;
+	--accent-color: #440182;
 	--text-color: #FFF;
 	--bg-color: #77A6F7;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 #number a:hover {
-	text-shadow: 5px 5px #00887A;
+	text-shadow: 5px 5px var(--accent-color);
 }
 
 
@@ -423,7 +423,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 0 auto 0 auto;
+    margin: 10vw auto 0 auto;
 	padding-bottom: 5vw;
 }
 
@@ -459,7 +459,7 @@ body {
 	cursor: pointer;
 	background-color: white;
 	border-radius: 3vw;
-	padding: 2vw;
+	padding: 1.5vw;
 	box-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.3);
 	transition: transform 0.3s ease;
 }
