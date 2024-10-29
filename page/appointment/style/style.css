@@ -1,0 +1,203 @@
+* {
+	box-sizing: border-box;
+	font-size: 0;
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--accent-color: #440182;
+	--text-color: #FFF;
+	--bg-color: #77A6F7;
+}
+
+body {
+	background-color: #FFF;
+}
+
+header {
+	background-color: #77A6F7;
+}
+
+#logo-and-contact {
+	margin: 0 auto;
+	display: flex;
+}
+
+#logo img {
+    cursor: pointer;
+    width: 4vw;
+	height: 4.75vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	margin-left: 5vw;
+}
+
+#note h1 {
+    cursor: pointer;
+	font-size: clamp(16px, 3vw, 50px); /* ПРОВЕРИТЬ НА ШИРОКОМ ЭКРАНЕ */
+	color: var(--text-color);
+	font-family: "Hero-Bold";
+	margin-top: 1.7vw;
+	margin-left: 1vw;
+}
+
+#number {
+	margin-left: 13vw;
+	margin-top: 1.7vw;
+}
+
+#number a {
+	text-decoration: none;
+	font-size: 3vw;
+	color: var(--text-color);
+	font-family: "Hero-Bold";
+	transition: 0.3s;
+}
+
+#number a:hover {
+	text-shadow: 5px 5px var(--accent-color);
+}
+
+
+#address {
+	margin-left: 12vw;
+	margin-top: 1.7vw;
+}
+
+#address p {
+	font-size: 1.5vw;
+	color: var(--text-color);
+	font-family: "Hero-Bold";
+}
+
+#metro {
+	display: flex;
+}
+
+#metro p {
+	margin-left: 0.5vw;
+	margin-top: 0.3vw;
+}
+
+#metro img {
+	margin-top: 0.55vw;
+	width: 1.6vw;
+	height: 1.3vw;
+}
+
+#navbar-menu {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	list-style-type: none;
+}
+
+#navbar-menu li {
+	display: inline-block;
+	width: 100%;
+}
+
+#appointment {
+	background: linear-gradient(var(--accent-color) 0 0) 100% 100% /var(--t, 0) 0.3vw no-repeat;
+	transition: 0.3s;
+	display: inline-block;
+	width: 100%;
+	color: var(--text-color);
+	text-align: center;
+	font-family: "Hero-Bold";
+	font-size: 1.7vw;
+	padding: 1vw;
+  	text-decoration: none;
+}
+
+#appointment:hover {
+	--t: 100%;
+	color: var(--accent-color);
+}
+
+#contacts {
+	background: linear-gradient(var(--accent-color) 0 0) 0 100% /var(--t, 0) 0.3vw no-repeat;
+	transition: 0.3s;
+	display: inline-block;
+	width: 100%;
+	color: var(--text-color);
+	text-align: center;
+	font-family: "Hero-Bold";
+	font-size: 1.7vw;
+	padding: 1vw;
+  	text-decoration: none;
+}
+
+#contacts:hover {
+	--t: 100%;
+	color: var(--accent-color);
+}
+
+#price {
+	background: linear-gradient(var(--accent-color) 0 0) bottom /var(--t, 0) 0.3vw no-repeat;
+	transition: 0.3s;
+	display: inline-block;
+	width: 100%;
+	color: var(--text-color);
+	text-align: center;
+	font-family: "Hero-Bold";
+	font-size: 1.7vw;
+	padding: 1vw;
+  	text-decoration: none;
+}
+
+#price:hover {
+	--t: 100%;
+	color: var(--accent-color);
+}
+
+#doctors {
+	background: linear-gradient(var(--accent-color) 0 0) 100% 100% /var(--t, 0) 0.3vw no-repeat;
+	transition: 0.3s;
+	display: inline-block;
+	width: 100%;
+	color: var(--text-color);
+	text-align: center;
+	font-family: "Hero-Bold";
+	font-size: 1.7vw;
+	padding: 1vw;
+  	text-decoration: none;
+}
+
+#doctors:hover {
+	--t: 100%;
+	color: var(--accent-color);
+}
+
+#aboutus {
+	background: linear-gradient(var(--accent-color) 0 0) 0 100% /var(--t, 0) 0.3vw no-repeat;
+	transition: 0.3s;
+	display: inline-block;
+	width: 100%;
+	color: var(--text-color);
+	text-align: center;
+	font-family: "Hero-Bold";
+	font-size: 1.7vw;
+	padding: 1vw;
+  	text-decoration: none;
+}
+
+#aboutus:hover {
+	--t: 100%;
+	color: var(--accent-color);
+}
+
+#welcome {
+	position: relative;
+	background-color: black;
+}
+
+@font-face {
+	font-family: "Hero-Bold";
+	src: url("../../fonts/hero/TTF/Hero-Bold.ttf") format("truetype");
+	font-style: normal; 
+	font-weight: normal; 
+}

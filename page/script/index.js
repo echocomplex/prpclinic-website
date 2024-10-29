@@ -12,6 +12,24 @@ else {
     window.location.replace("mobile");
 }
 
+let footerBlock = document.getElementById("footer-contacts");
+
+if (window.innerHeight > window.innerWidth) {
+    footerBlock.style.marginBottom = "40vw";
+}
+else {
+    footerBlock.style.marginBottom = "3vw";
+}
+
+window.addEventListener("resize", () => {
+    if (window.innerHeight > window.innerWidth) {
+        footerBlock.style.marginBottom = "40vw";
+    }
+    else {
+        footerBlock.style.marginBottom = "3vw";
+    }
+});
+
 ScrollTrigger.create({
     trigger: '#prp-therapy',
     marker:true,
@@ -141,4 +159,20 @@ ScrollTrigger.create({
         gsap.to('#contacts-and-appointment', { duration: 1, opacity: 0 })
         gsap.to('#list-of-serivces', { duration: 1, opacity: 1 })
     },
-})
+});
+
+document.getElementById('gotoAppointment').addEventListener('click', function() {
+    window.open('appointment');
+});
+
+document.getElementById('gotoVK').addEventListener('click', function() {
+    window.open('https://vk.com/prpclinicspb');
+});
+
+document.getElementById('gotoWhatsapp').addEventListener('click', function() {
+    window.open('https://api.whatsapp.com/send/?phone=79119201428');
+});
+
+document.getElementById('gotoPrice').addEventListener('click', function() {
+    window.open('price');
+});
