@@ -7,6 +7,8 @@
         <script defer src="../libs/gsap/gsap.min.js" defer></script>
         <script defer src="../libs/gsap/ScrollSmoother.min.js" defer></script>
         <script defer src="../libs/gsap/ScrollTrigger.min.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/inputmask/dist/jquery.inputmask.min.js"></script>
         <script src="script/index.js" defer></script>
         <noscript>Для работы сайта требуется JavaScript. Наш сайт абсолютно безопасен и использует JS для анимаций.</noscript>
         <title>Записаться на прием</title>
@@ -46,7 +48,15 @@
                         <p>Для того, чтобы записаться к нам на прием, вы можете позвонить по номеру <a href="tel:+79119201428">+7 (911) 920-14-28</a> или заказать обратный звонок по форме справа.</p>
                     </div>
                     <div id="form">
-                        <p></p>
+                        <form id="myForm">
+                            <div id="form-block">
+                                <label for="name">Ваше имя:</label><br>
+                                <input type="text" id="name" name="name" placeholder="Введите ваше имя" required><br>
+                                <label for="phone-number">Номер телефона:</label><br>
+                                <input type="text" id="phone" name="phone" placeholder="+7 (___) ___-__-__"required><br>
+                                <button type="button" onclick="generateLink()">Заказать звонок</button>
+                            </div>
+                        </form>
                     </div>
                 </section>
             </div>

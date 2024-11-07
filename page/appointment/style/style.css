@@ -35,7 +35,7 @@ header {
 
 #note h1 {
     cursor: pointer;
-	font-size: clamp(16px, 3vw, 50px); /* ПРОВЕРИТЬ НА ШИРОКОМ ЭКРАНЕ */
+	font-size: 3vw;
 	color: var(--text-color);
 	font-family: "Hero-Bold";
 	margin-top: 1.7vw;
@@ -190,19 +190,102 @@ header {
 	color: var(--accent-color);
 }
 
-#welcome {
-	position: relative;
-	background-color: black;
-}
-
 #appointment-section {
-	display: flex;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns: auto auto;
+  	grid-template-rows: auto;
+  	grid-auto-flow: row;
+	gap: 4vw;
+	height: 78vh;
 }
 
 #appointment-text {
-	width: 10vw;
-	height: ;
+	display: inline;
+	text-align: left;
+	justify-content: center;
+	width: 45vw;
+	height: 17vw;
 }
+
+#appointment-text p {
+	font-family: "Hero-Bold";
+	font-size: 3vw;
+	color: #77A6F7;
+}
+
+#form {
+	width: 30vw;
+	height: 30vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#form-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+label {
+	font-family: "Hero-Bold";
+	font-size: 2.5vw;
+	color: #77A6F7;
+}
+
+input {
+	font-family: "Hero-Bold";
+	font-size: 2vw;
+	color: #77A6F7;
+    width: 25vw;
+    padding: 1vw;
+    margin-bottom: 1.5vw;
+    border: 0.2vw solid #b5d0ff;
+    border-radius: 2vw;
+    box-sizing: border-box;
+	text-align: center;
+	transition: 0.3s;
+}
+
+input:hover {
+	border: 0.2vw solid #77A6F7;
+    border-radius: 2vw;
+}
+
+input:hover {
+	border: 0.2vw solid #77A6F7;
+    border-radius: 2vw;
+}
+
+input:focus {
+	border: 0.2vw solid #77A6F7;
+    border-radius: 2vw;
+}
+
+button {
+	margin-top: 0.5vw;
+	width: 25vw;
+	font-family: "Hero-Bold";
+	font-size: 2vw;
+	background-color: #77A6F7;
+	color: #FFF;
+    border-radius: 2vw;
+	border: 0px;
+	padding: 1vw;
+	transition: 0.3s;
+}
+
+button:hover {
+	background-color: #4688fa;
+}
+
+button:active {
+	background-color: #31589c;
+}
+
 
 @font-face {
 	font-family: "Hero-Bold";

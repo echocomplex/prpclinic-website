@@ -4,7 +4,7 @@ if (ScrollTrigger.isTouch !== 1) {
     ScrollSmoother.create({
         wrapper: ".wrapper",
         content: ".content",
-        smooth: 0.9, 
+        smooth: 1, 
         effects: true
     });
 }
@@ -162,7 +162,7 @@ ScrollTrigger.create({
 });
 
 document.getElementById('gotoAppointment').addEventListener('click', function() {
-    window.open('appointment');
+    window.open('appointment/index.html');
 });
 
 document.getElementById('gotoVK').addEventListener('click', function() {
