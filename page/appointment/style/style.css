@@ -195,6 +195,15 @@ header {
 	background-color: black;
 }
 
+#appointment-section {
+	display: flex;
+}
+
+#appointment-text {
+	width: 10vw;
+	height: ;
+}
+
 @font-face {
 	font-family: "Hero-Bold";
 	src: url("../../fonts/hero/TTF/Hero-Bold.ttf") format("truetype");
