@@ -202,10 +202,11 @@ header {
 }
 
 #contacts-text {
+	background-color: red;
 	display: inline;
 	text-align: left;
 	justify-content: center;
-	width: 45vw;
+	width: 60vw;
 	height: 17vw;
 }
 
@@ -213,6 +214,12 @@ header {
 	font-family: "Hero-Bold";
 	font-size: 2.6vw;
 	color: #77A6F7;
+}
+
+#contacts-text p b {
+	font-family: "Hero-Bold";
+	font-size: 3vw;
+	color: #4688fa;
 }
 
 #contacts-text p a {
@@ -227,91 +234,51 @@ header {
 	color: #31589c;
 }
 
-#form {
+#map {
+	border: 0.2vw solid #b5d0ff;
+    border-radius: 2vw;
+}
+
+
+#map iframe {
 	width: 30vw;
-	height: 30vw;
-	display: flex;
-	align-items: center;
+	height: 20vw;
+}
+
+#buttons {
+	margin-top: 2vw;
+	display: grid;
+	grid-template-columns: auto auto;
+  	grid-template-rows: auto;
+  	grid-auto-flow: row;
+  	gap: 2vw;
 	justify-content: center;
-}
-
-#form-block {
-	display: flex;
-	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 }
 
-label {
-	font-family: "Hero-Bold";
-	font-size: 2.5vw;
-	color: #77A6F7;
-}
-
-input {
-	font-family: "Hero-Bold";
-	font-size: 2vw;
-	color: #77A6F7;
-    width: 25vw;
-    padding: 1vw;
-    margin-bottom: 1.5vw;
-    border: 0.2vw solid #b5d0ff;
-    border-radius: 2vw;
-    box-sizing: border-box;
-	text-align: center;
-	transition: 0.3s;
-}
-
-input:hover {
-	border: 0.2vw solid #77A6F7;
-    border-radius: 2vw;
-}
-
-input:hover {
-	border: 0.2vw solid #77A6F7;
-    border-radius: 2vw;
-}
-
-input:focus {
-	border: 0.2vw solid #77A6F7;
-    border-radius: 2vw;
-}
-
-button:disabled {
-	margin-top: 0.5vw;
-	width: 25vw;
-	font-family: "Hero-Bold";
-	font-size: 2vw;
-	background-color: #7e889b;
-	color: #FFF;
-    border-radius: 2vw;
-	border: 0px;
-	padding: 1vw;
-	transition: 0.3s;
-}
-
-button:not(:disabled) {
-	margin-top: 0.5vw;
-	width: 25vw;
-	font-family: "Hero-Bold";
-	font-size: 2vw;
-	background-color: #77A6F7;
-	color: #FFF;
-    border-radius: 2vw;
-	border: 0px;
-	padding: 1vw;
-	transition: 0.3s;
-}
-
-button:not(:disabled):hover {
+#buttons div {
+	width: 20vw;
+	display: flex;
 	cursor: pointer;
-	background-color: #4688fa;
+	background-color: #77A6F7;
+	border-radius: 3vw;
+	padding: 1.5vw;
+	box-shadow: 0.5vw 0.5vw 0.5vw rgba(0, 0, 0, 0.3);
+	transition: transform 0.3s ease;
 }
 
-button:not(:disabled):active {
-	background-color: #31589c;
+#buttons div:hover {
+	transform: translateY(-0.5vw);
 }
 
+#buttons div h3 {
+	display: inline-block;
+	margin: auto;
+    text-align: center;
+	font-size: 1.7vw;
+    font-family: "Hero-Bold";
+    color: white;
+}
 
 @font-face {
 	font-family: "Hero-Bold";
