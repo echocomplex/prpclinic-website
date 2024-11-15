@@ -244,9 +244,9 @@ header {
 }
 
 #buttons {
-	margin-top: 2vw;
+	margin-top: 2.5vw;
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: auto auto auto;
   	grid-template-rows: auto;
   	grid-auto-flow: row;
   	gap: 2vw;
@@ -255,7 +255,7 @@ header {
 }
 
 #buttons div {
-	width: 20vw;
+	width: 19vw;
 	display: flex;
 	cursor: pointer;
 	background-color: #77A6F7;
@@ -273,7 +273,7 @@ header {
 	display: inline-block;
 	margin: auto;
     text-align: center;
-	font-size: 1.7vw;
+	font-size: 1.6vw;
     font-family: "Hero-Bold";
     color: white;
 }

@@ -204,9 +204,8 @@ header {
 #appointment-text {
 	display: inline;
 	text-align: left;
-	justify-content: center;
-	width: 45vw;
-	height: 17vw;
+	width: 55vw;
+	height: 16vw;
 }
 
 #appointment-text p {

@@ -1,3 +1,9 @@
+gsap.registerPlugin(ScrollTrigger);
+
+if (ScrollTrigger.isTouch == 1) {
+        window.location.replace("mobile");
+}
+
 document.getElementById('logo').addEventListener('click', function() {
         window.location.href = '../index.html';
 });
