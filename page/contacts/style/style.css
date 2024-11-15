@@ -202,12 +202,11 @@ header {
 }
 
 #contacts-text {
-	background-color: red;
 	display: inline;
 	text-align: left;
 	justify-content: center;
 	width: 60vw;
-	height: 17vw;
+	height: 21vw;
 }
 
 #contacts-text p {
@@ -225,7 +224,7 @@ header {
 #contacts-text p a {
 	font-family: "Hero-Bold";
 	font-size: 2.6vw;
-	color: #4688fa;
+	color: #77A6F7;
 	text-decoration: none;
 	transition: 0.3s;
 }
@@ -238,7 +237,6 @@ header {
 	border: 0.2vw solid #b5d0ff;
     border-radius: 2vw;
 }
-
 
 #map iframe {
 	width: 30vw;
