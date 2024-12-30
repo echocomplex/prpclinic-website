@@ -190,56 +190,96 @@ header {
 	color: var(--accent-color);
 }
 
-section {
+.light {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding: 2vw;
+	margin-top: 2vw;
+	margin-bottom: 4vw;
 }
 
-section h1 {
+.light h1 {
 	font-family: "Hero-Bold";
 	font-size: 3.5vw;
 	color: var(--bg-color);
 	text-align: center;
 }
 
-.prices {
+.light .prices {
 	display: flex;
 	flex-direction: row;
 	margin-top: 2vw;
 }
 
-.left-side, .right-side {
+.light table {
 	height: 55vw;
+	width: 45vw;
 	margin: auto;
-	padding: 2.5vw;
+	padding: 1vw 2vw 1vw 2vw;
 	padding-bottom: 1vw;
 	border: 0.3vw solid #77A6F7;
-	border-radius: 2vw;
+	border-radius: 3vw;
+	border-spacing: 2vw;
 }
 
-.text-container {
+.light .left-text {
+	font-family: "Hero-Bold";
+	font-size: 1.5vw;
+	color: #77A6F7;
+	text-align: left;
+}
+
+.light .right-text {
+	font-family: "Hero-Bold";
+	font-size: 1.7vw;
+	color: #77A6F7;
+	text-align: center;
+}
+
+.blue {
+	opacity: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2vw;
+}
+
+.blue h1 {
+	font-family: "Hero-Bold";
+	font-size: 3.5vw;
+	color: #FFF;
+	text-align: center;
+}
+.blue .prices {
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 2vw;
+	margin-top: 2vw;
 }
 
-.text-container h2 {
-	display: block;
-	width: 100%;
-	font-family: "Hero-Bold";
-	font-size: 1.7vw;
+.blue table {
+	height: 55vw;
+	width: 45vw;
 	margin: auto;
-	color: #77A6F7;
+	padding: 1vw 2vw 1vw 2vw;
+	padding-bottom: 1vw;
+	border: 0.3vw solid #FFF;
+	border-radius: 3vw;
+	border-spacing: 2vw;
 }
 
-.text-container p {
-	margin: auto;
+.blue .left-text {
+	font-family: "Hero-Bold";
+	font-size: 1.5vw;
+	color: #FFF;
+	text-align: left;
+}
+
+.blue .right-text {
 	font-family: "Hero-Bold";
 	font-size: 1.7vw;
-	margin-left: 2vw;
-	color: #2d5394;
+	color: #FFF;
+	text-align: center;
 }
 
 @font-face {

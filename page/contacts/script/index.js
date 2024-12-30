@@ -4,6 +4,16 @@ if (ScrollTrigger.isTouch == 1) {
         window.location.replace("mobile");
 }
 
+if (window.innerHeight > window.innerWidth) {
+    window.location.replace("mobile");
+}
+
+window.addEventListener("resize", () => {
+    if (window.innerHeight > window.innerWidth) {
+        window.location.replace("mobile");
+    }
+});
+
 document.getElementById('logo').addEventListener('click', function() {
         window.location.href = '../index.html';
 });
