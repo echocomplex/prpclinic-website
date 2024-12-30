@@ -190,6 +190,57 @@ header {
 	color: var(--accent-color);
 }
 
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2vw;
+}
+
+section h1 {
+	font-family: "Hero-Bold";
+	font-size: 3.5vw;
+	color: var(--bg-color);
+	text-align: center;
+}
+
+.prices {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2vw;
+}
+
+.left-side, .right-side {
+	height: 55vw;
+	margin: auto;
+	padding: 2.5vw;
+	padding-bottom: 1vw;
+	border: 0.3vw solid #77A6F7;
+	border-radius: 2vw;
+}
+
+.text-container {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2vw;
+}
+
+.text-container h2 {
+	display: block;
+	width: 100%;
+	font-family: "Hero-Bold";
+	font-size: 1.7vw;
+	margin: auto;
+	color: #77A6F7;
+}
+
+.text-container p {
+	margin: auto;
+	font-family: "Hero-Bold";
+	font-size: 1.7vw;
+	margin-left: 2vw;
+	color: #2d5394;
+}
 
 @font-face {
 	font-family: "Hero-Bold";
