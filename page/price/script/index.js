@@ -30,6 +30,27 @@ document.getElementById('note').addEventListener('click', function() {
     window.location.href = '../index.html';
 });
 
+gsap.to("#specialist", { opacity: 1 });
+
+ScrollTrigger.create({
+    trigger: '#consultations',
+    marker:true,
+    start:"top 50%",
+    end:"bottom 0%", 
+  
+    onEnter: () => {
+        gsap.to('body', { duration: 1, backgroundColor: '#77A6F7' })
+        gsap.to('#specialist', { duration: 1, opacity: 0 })
+        gsap.to('#consultations', { duration: 1, opacity: 1 })
+    },
+    
+    onLeaveBack: () => {
+        gsap.to('body', { duration: 1, backgroundColor: '#FFF' })
+        gsap.to('#specialist', { duration: 1, opacity: 1 })
+        gsap.to('#consultations', { duration: 1, opacity: 0 })
+    },
+});
+
 ScrollTrigger.create({
     trigger: '#consultations',
     marker:true,

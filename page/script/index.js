@@ -174,5 +174,5 @@ document.getElementById('gotoWhatsapp').addEventListener('click', function() {
 });
 
 document.getElementById('gotoPrice').addEventListener('click', function() {
-    window.open('price');
+    window.open('price/index.html');
 });
