@@ -52,20 +52,20 @@ ScrollTrigger.create({
 });
 
 ScrollTrigger.create({
-    trigger: '#consultations',
+    trigger: '#traumotology',
     marker:true,
     start:"top 50%",
     end:"bottom 0%", 
   
     onEnter: () => {
-        gsap.to('body', { duration: 1, backgroundColor: '#77A6F7' })
-        gsap.to('#specialist', { duration: 1, opacity: 0 })
-        gsap.to('#consultations', { duration: 1, opacity: 1 })
+        gsap.to('body', { duration: 1, backgroundColor: '#FFF' })
+        gsap.to('#consultations', { duration: 1, opacity: 0 })
+        gsap.to('#traumotology', { duration: 1, opacity: 1 })
     },
     
     onLeaveBack: () => {
-        gsap.to('body', { duration: 1, backgroundColor: '#FFF' })
-        gsap.to('#specialist', { duration: 1, opacity: 1 })
-        gsap.to('#consultations', { duration: 1, opacity: 0 })
+        gsap.to('body', { duration: 1, backgroundColor: '#77A6F7' })
+        gsap.to('#consultations', { duration: 1, opacity: 1 })
+        gsap.to('#traumotology', { duration: 1, opacity: 0 })
     },
 });
