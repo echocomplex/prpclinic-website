@@ -69,3 +69,41 @@ ScrollTrigger.create({
         gsap.to('#traumotology', { duration: 1, opacity: 0 })
     },
 });
+
+ScrollTrigger.create({
+    trigger: '#physiotherapy',
+    marker:true,
+    start:"top 50%",
+    end:"bottom 0%", 
+  
+    onEnter: () => {
+        gsap.to('body', { duration: 1, backgroundColor: '#77A6F7' })
+        gsap.to('#traumotology', { duration: 1, opacity: 0 })
+        gsap.to('#physiotherapy', { duration: 1, opacity: 1 })
+    },
+    
+    onLeaveBack: () => {
+        gsap.to('body', { duration: 1, backgroundColor: '#FFF' })
+        gsap.to('#traumotology', { duration: 1, opacity: 1 })
+        gsap.to('#physiotherapy', { duration: 1, opacity: 0 })
+    },
+});
+
+ScrollTrigger.create({
+    trigger: '#manualtherapy',
+    marker:true,
+    start:"top 50%",
+    end:"bottom 0%", 
+  
+    onEnter: () => {
+        gsap.to('body', { duration: 1, backgroundColor: '#FFF' })
+        gsap.to('#traumotology', { duration: 1, opacity: 0 })
+        gsap.to('#manualtherapy', { duration: 1, opacity: 1 })
+    },
+    
+    onLeaveBack: () => {
+        gsap.to('body', { duration: 1, backgroundColor: '#77A6F7' })
+        gsap.to('#traumotology', { duration: 1, opacity: 1 })
+        gsap.to('#manualtherapy', { duration: 1, opacity: 0 })
+    },
+});
