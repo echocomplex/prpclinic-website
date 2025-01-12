@@ -107,3 +107,22 @@ ScrollTrigger.create({
         gsap.to('#manualtherapy', { duration: 1, opacity: 0 })
     },
 });
+
+ScrollTrigger.create({
+    trigger: '#massage',
+    marker:true,
+    start:"top 50%",
+    end:"bottom 0%", 
+  
+    onEnter: () => {
+        gsap.to('body', { duration: 1, backgroundColor: '#77A6F7' })
+        gsap.to('#manualtherapy', { duration: 1, opacity: 0 })
+        gsap.to('#massage', { duration: 1, opacity: 1 })
+    },
+    
+    onLeaveBack: () => {
+        gsap.to('body', { duration: 1, backgroundColor: '#FFF' })
+        gsap.to('#manualtherapy', { duration: 1, opacity: 1 })
+        gsap.to('#massage', { duration: 1, opacity: 0 })
+    },
+});

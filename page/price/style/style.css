@@ -244,6 +244,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	padding: 2vw;
+	margin-bottom: 4vw;
 }
 
 .blue h1 {
