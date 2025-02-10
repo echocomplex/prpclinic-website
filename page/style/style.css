@@ -495,7 +495,7 @@ body {
 
 #contacts-and-appointment-info p {
 	padding-left: 5vw;
-	max-width: 60vw;
+	max-width: 70vw;
     text-align: left;
 	margin: auto;
 	font-size: 2.6vw;
@@ -509,7 +509,7 @@ body {
 }
 
 #footer-contacts {
-	margin-top: 10vw;
+	margin-top: 7.5vw;
 	margin-left: 5vw;
 	margin-right: 5vw;
 	margin-bottom: 2vw;
