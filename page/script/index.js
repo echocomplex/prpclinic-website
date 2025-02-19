@@ -106,42 +106,6 @@ ScrollTrigger.create({
     },
 });
 
-document.getElementById('gotoPRP').addEventListener('click', function() {
-    window.open('about-prp');
-});
-
-document.getElementById('gotoNeurology').addEventListener('click', function() {
-    window.open('about-neurology');
-});
-
-document.getElementById('gotoMassage').addEventListener('click', function() {
-    window.open('about-massage');
-});
-
-document.getElementById('gotoMammology').addEventListener('click', function() {
-    window.open('about-mammology');
-});
-
-document.getElementById('gotoOncology').addEventListener('click', function() {
-    window.open('about-oncology');
-});
-
-document.getElementById('gotoTests').addEventListener('click', function() {
-    window.open('about-tests');
-});
-
-document.getElementById('gotoOrthopedics').addEventListener('click', function() {
-    window.open('about-orthopedics');
-});
-
-document.getElementById('gotoManualTherapy').addEventListener('click', function() {
-    window.open('about-manual-therapy');
-});
-
-document.getElementById('gotoPhysiotherapy').addEventListener('click', function() {
-    window.open('about-physiotherapy');
-});
-
 ScrollTrigger.create({
     trigger: '#contacts-and-appointment',
     marker:true,

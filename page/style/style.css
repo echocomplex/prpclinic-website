@@ -456,7 +456,6 @@ body {
 
 #list-of-serivces-info div {
 	display: flex;
-	cursor: pointer;
 	background-color: white;
 	border-radius: 3vw;
 	padding: 1.5vw;
